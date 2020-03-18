@@ -6,10 +6,7 @@
 @author         vk.com/lxstify
 ==/UserStyle== */
 
-
-
-@-moz-document url-prefix("https://vk.com/") {
-    :root {
+:root {
         --accent: #3f8ae0;
         --text_color: black;
         
@@ -134,4 +131,3 @@
     .top_nav_link:hover {
         background-color: #eee;
     }
-}
