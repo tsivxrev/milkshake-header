@@ -64,6 +64,8 @@ input.text.ts_input:focus {
 	opacity: 1;
 }
 
+.top_nav_btn#top_notify_btn.has_notify .top_nav_btn_icon,
+.top_nav_btn#top_notify_btn.active .top_nav_btn_icon, 
 .top_nav_btn#top_notify_btn.has_notify .top_nav_btn_icon {
 	background-image: var(--notify);
 	background-size: 25px;
@@ -80,7 +82,8 @@ input.text.ts_input:focus {
 }
 
 .top_nav_btn#top_audio .top_nav_btn_icon,
-.top_nav_btn#top_audio:hover .top_nav_btn_icon {
+.top_nav_btn#top_audio:hover .top_nav_btn_icon,
+.top_nav_btn#top_audio.active .top_nav_btn_icon {
 	opacity: 1;
 	background-image: var(--head_audio);
 }
@@ -136,6 +139,8 @@ input.text.ts_input:focus {
 
 .top_nav_btn:hover,
 .top_audio_player:hover,
-.top_nav_link:hover {
+.top_nav_link:hover,
+.top_nav_btn.active,
+.top_nav_link.active {
 	background-color: #eee;
 }
