@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Milkshake
 @namespace      lxstify
-@version       	1.1.0
+@version       	2.0.0
 @description    milkshake style header for vk.com
 @author         vk.com/lxstify
 ==/UserStyle== */
@@ -32,13 +32,17 @@
 	box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
-.top_home_link .top_home_logo {
+/*.top_home_link .top_home_logo*/.CovidLogo.top_home_link:not(.bugtracker_logo) .top_home_logo {
 	background-image: var(--top_logo);
 	background-size: 64px;
 	margin: 0;
 	float: left;
 	height: 42px;
 	width: 42px;
+}
+
+.CovidLogo .CovidLogo__hashtag {
+	display: none !important
 }
 
 input.text.ts_input,
